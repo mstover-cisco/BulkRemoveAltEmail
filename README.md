@@ -8,5 +8,10 @@ primary email, used their SCIM ID, and remove the supplied, corresponding altern
 The application uses the CSV reader module, so it can identify the relevant columns in a complete bulk download of 
 users from Webex Control Hub. By default, 
 
+Webex Org ID and Admin Bearer Tokens are read from environment variables to prevent tokens from being stored. For 
+one-off usage, a bearer token can be created using the [Webex Developer Website](https://developer.webex.com) where
+and admin can find their OrgID and a temporary authorization token. A future improvement is to include workflow 
+to create an OAuth Token for an Admin Account with the requried scope.
+
 ## References
 [Webex Admin SCIM-2 Overview](https://developer.webex.com/admin/docs/scim-2-overview)
