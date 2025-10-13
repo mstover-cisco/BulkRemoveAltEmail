@@ -1,5 +1,6 @@
 primary_email,alternate_email
 testuser1@primary.com,testuser1@secondary.org
+
 testuser2@primary.com,testuser2@secondary.org
 no-alt-email@primary.com,
 testuser3@primary.com,testuser3@secondary.org
