@@ -1,0 +1,2 @@
+export WEBEX_ORG_ID="your-long-org-id"
+export WEBEX_SCIM_TOKEN="your-very-long-scim-token"

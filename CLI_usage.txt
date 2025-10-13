@@ -1,0 +1,6 @@
+python process_csv.py --csv-file users_to_process.csv
+
+Since we provided default values for the column names (primary_email and alternate_email), you only need to specify them if your CSV headers are different. For example:
+
+# If your CSV headers were 'main_id' and 'email_to_delete'
+python process_csv.py --csv-file my_users.csv --primary-column "main_id" --alternate-column "email_to_delete"
