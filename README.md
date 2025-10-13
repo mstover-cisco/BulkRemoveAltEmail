@@ -9,3 +9,5 @@ Webex Org ID and Admin Bearer Tokens are read from environment variables to prev
 
 ## References
 [Webex Admin SCIM-2 Overview](https://developer.webex.com/admin/docs/scim-2-overview)
+[Webex SCIM  Users API](https://developer.webex.com/admin/docs/api/v1/scim-2-users)
+[Webex Admin Authentication](https://developer.webex.com/admin/docs/authentication)
