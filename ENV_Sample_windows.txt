@@ -1,2 +1,2 @@
 set WEBEX_ORG_ID="your-long-org-id"
-set WEBEX_SCIM_TOKEN="your-very-long-scim-token"
+set WEBEX_SCIM_TOKEN="your-very-long-bearer-token"
